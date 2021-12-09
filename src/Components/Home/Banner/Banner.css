@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+
+.top-bg {
+  background-image: url("https://i.ibb.co/k5j1sVD/bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-section {
+  text-align: left;
+  padding-bottom: 10%;
+}
+.text-section h1 {
+  margin-top: 20%;
+  font-size: 50px;
+  font-family: "Francois One", sans-serif;
+  color: olivedrab;
+}
+.text-section Button {
+  margin: 8% 0;
+}
+.icons a {
+  color: black;
+}
+.icons > a {
+  opacity: 0.5;
+}
+.icons > a:hover {
+  opacity: 1;
+  cursor: pointer;
+  color: black;
+}
+.top-border {
+  width: 100%;
+  height: 30px;
+  background-color: #d4c354;
+}
+
+.links a {
+  font-size: 25px;
+}

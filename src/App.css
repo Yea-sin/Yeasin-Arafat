@@ -1,3 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap");
+
+.francois {
+  font-family: "Francois One", sans-serif;
+}
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+.cute-font {
+  font-family: "Cute Font", cursive;
+}
+.readex-font {
+  font-family: "Readex Pro", sans-serif;
+}
+
+.title-text {
+  font-family: "Readex Pro", sans-serif;
+  position: relative;
+}
+.title-text::after {
+  content: " ";
+  width: 40px;
+  height: 4px;
+  position: absolute;
+  background: slategray;
+  top: 80px;
+  left: 235px;
+}
+.title-text::before {
+  content: " ";
+  width: 35px;
+  height: 4px;
+  position: absolute;
+  background: black;
+  top: 80px;
+  left: 200px;
+}
 .App {
   text-align: center;
 }

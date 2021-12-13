@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Typewriter } from "react-simple-typewriter";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { BsLinkedin, BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsInstagram, BsSkype } from "react-icons/bs";
 import { FaFacebookSquare } from "react-icons/fa";
 import "./Banner.css";
 
@@ -54,14 +54,6 @@ const Banner = () => {
 
             <div className="d-flex align-items-center my-4 icons">
               <a
-                href="https://www.linkedin.com/in/yeasin-a-r"
-                rel="noreferrer"
-                target="_blank">
-                <h3 className="me-3">
-                  <BsLinkedin />
-                </h3>
-              </a>
-              <a
                 href="https://www.facebook.com/fahim.hossain160/"
                 rel="noreferrer"
                 target="_blank">
@@ -75,6 +67,22 @@ const Banner = () => {
                 target="_blank">
                 <h3 className="me-3">
                   <BsInstagram />
+                </h3>
+              </a>
+              <a
+                href="https://join.skype.com/invite/u4q5iqR4RE29"
+                rel="noreferrer"
+                target="_blank">
+                <h3 className="me-3">
+                  <BsSkype />
+                </h3>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/yeasin-a-r"
+                rel="noreferrer"
+                target="_blank">
+                <h3 className="me-3">
+                  <BsLinkedin />
                 </h3>
               </a>
             </div>

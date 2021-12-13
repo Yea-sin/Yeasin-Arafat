@@ -6,13 +6,21 @@ const Intro = () => {
     <Container className="my-5" id="about">
       <Row lg={2} md={2} sm={1} xs={1} className="">
         <Col>
-          <div className="title-text">
+          <div
+            className="title-text"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="900">
             <h2>Intro</h2>
             <small>Let Me Introduce Myself</small>
           </div>
         </Col>
         <Col>
-          <div className="text-start readex-font mt-5">
+          <div
+            className="text-start readex-font mt-5"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <h3>Hi!</h3>
             <p className="text-secondary" style={{ lineHeight: "30px" }}>
               I am Yeasin Arafat from Khulna, BD. A Junior MERN Stack Web

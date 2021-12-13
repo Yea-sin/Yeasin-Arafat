@@ -39,7 +39,11 @@ const Contact = () => {
     <Container className="contact-container" id="contact">
       <Row lg={2} md={2} sm={1} xs={1} className="">
         <Col>
-          <div className="title-text">
+          <div
+            className="title-text"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="900">
             <h2>Contact</h2>
             <small>Let's Talk</small>
           </div>

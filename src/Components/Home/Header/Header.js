@@ -18,7 +18,7 @@ const Header = () => {
               HOME
             </Nav.Link>
             <Nav.Link active href="#experience">
-              Experience
+              EXPERIENCE
             </Nav.Link>
             <Nav.Link active href="#about">
               ABOUT

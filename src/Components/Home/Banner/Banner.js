@@ -110,7 +110,11 @@ const Banner = () => {
             </div>
           </Col>
           <Col className="img-bg">
-            <div className="mt-5">
+            <div
+              className="mt-5"
+              data-aos="zoom-in-up"
+              data-aos-easing="linear"
+              data-aos-duration="900">
               <img
                 style={{
                   border: "1px solid transparent",

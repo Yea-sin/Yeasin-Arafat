@@ -10,15 +10,27 @@ const Experience = () => {
     <Container className="space-container" id="experience">
       <Row lg={2} md={2} sm={1} xs={1}>
         <Col>
-          <div className="title-text">
+          <div
+            className="title-text"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="900">
             <h2>Experience</h2>
             <small>The Skills I Have</small>
           </div>
         </Col>
         <Col>
-          <div className="text-start  mt-5">
+          <div
+            className="text-start  mt-5"
+            data-aos="zoom-in-up"
+            data-aos-easing="linear"
+            data-aos-duration="900">
             <div className="row gy-3 francois">
-              <div className="col-md-4 col-sm-12 col-xs-12">
+              <div
+                className="col-md-4 col-sm-12 col-xs-12"
+                data-aos="zoom-in-up"
+                data-aos-easing="linear"
+                data-aos-duration="400">
                 <div className="p-5 skills d-flex justify-content-center aling-items-center">
                   <div className="skills-child">
                     <h4 className="text-center">
@@ -28,8 +40,16 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 col-sm-12 col-xs-12">
-                <div className="p-5 bg-secondary d-flex justify-content-center aling-items-center">
+              <div
+                className="col-md-4 col-sm-12 col-xs-12"
+                data-aos="zoom-in-up"
+                data-aos-easing="linear"
+                data-aos-duration="500">
+                <div
+                  className="p-5 bg-secondary d-flex justify-content-center aling-items-center"
+                  data-aos="zoom-in-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="500">
                   <div>
                     <h4 className="text-center">
                       <DiReact />
@@ -39,7 +59,11 @@ const Experience = () => {
                 </div>
               </div>
               <div className="col-md-4 col-sm-12 col-xs-12">
-                <div className="p-5 d-flex justify-content-center aling-items-center">
+                <div
+                  className="p-5 d-flex justify-content-center aling-items-center"
+                  data-aos="zoom-in-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="600">
                   <div>
                     <h4 className="text-center">
                       <DiJavascript1 />
@@ -49,7 +73,11 @@ const Experience = () => {
                 </div>
               </div>
               <div className="col-md-4 col-sm-12 col-xs-12">
-                <div className="p-5 bg-secondary d-flex justify-content-center aling-items-center">
+                <div
+                  className="p-5 bg-secondary d-flex justify-content-center aling-items-center"
+                  data-aos="zoom-in-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="700">
                   <div>
                     <h4 className="text-center">
                       <FaNodeJs />
@@ -59,7 +87,11 @@ const Experience = () => {
                 </div>
               </div>
               <div className="col-md-4 col-sm-12 col-xs-12">
-                <div className="p-5 d-flex justify-content-center aling-items-center">
+                <div
+                  className="p-5 d-flex justify-content-center aling-items-center"
+                  data-aos="zoom-in-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="800">
                   <div>
                     <h4 className="text-center">
                       <FaNodeJs />
@@ -69,7 +101,11 @@ const Experience = () => {
                 </div>
               </div>
               <div className="col-md-4 col-sm-12 col-xs-12">
-                <div className="p-5 bg-secondary d-flex justify-content-center aling-items-center">
+                <div
+                  className="p-5 bg-secondary d-flex justify-content-center aling-items-center"
+                  data-aos="zoom-in-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="900">
                   <div>
                     <h4 className="text-center">
                       <DiMongodb />

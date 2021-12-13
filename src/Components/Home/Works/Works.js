@@ -8,7 +8,11 @@ import { AiFillGithub } from "react-icons/ai";
 const Works = () => {
   return (
     <Container className="space-container" id="projects">
-      <div className="readex-font mb-5">
+      <div
+        className="readex-font mb-5"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="900">
         <h2>Works_</h2>
         <small>Projects I Made</small>
       </div>
@@ -16,13 +20,20 @@ const Works = () => {
         <Col>
           <div className="project-img">
             <img
+              data-aos="zoom-in-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
               src="https://i.ibb.co/Ph0HrFh/3-devices-black.png"
               width={"100%"}
               alt=""
             />
           </div>
         </Col>
-        <Col className="text-start">
+        <Col
+          className="text-start"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
           <div className="francois mb-3">
             <h2 className="fw-bold">Drive-home - Car Niche Website</h2>
             <small className="text-secondary">Web App</small>
@@ -101,15 +112,26 @@ const Works = () => {
       </Row>
       <Row lg={2} md={2} sm={1} xs={1} className="align-items-center mt-5 g-5">
         <Col>
-          <div className="project-img">
+          <div
+            className="project-img"
+            data-aos="zoom-in-ip"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <img
+              data-aos="zoom-in-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
               src="https://i.ibb.co/7Kjpd3m/3-devices-black.png"
               width={"100%"}
               alt=""
             />
           </div>
         </Col>
-        <Col className="text-start">
+        <Col
+          className="text-start"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
           <div className="francois mb-3">
             <h2 className="fw-bold">Get-Food - Food Delivery Website</h2>
             <small className="text-secondary">Web App</small>

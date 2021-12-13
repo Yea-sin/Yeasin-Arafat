@@ -17,7 +17,7 @@ const Works = () => {
           <h2>Works_</h2>
           <small>Projects I Made</small>
         </div>
-        <Row lg={2} md={2} sm={1} xs={1} className="align-items-center g-5">
+        <Row lg={2} md={2} sm={1} xs={1} className="align-items-center">
           <Col>
             <div className="project-img">
               <img

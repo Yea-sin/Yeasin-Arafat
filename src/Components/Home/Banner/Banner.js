@@ -8,7 +8,7 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="top-bg">
+    <div className="top-bg" id="home">
       <Container className="py-5">
         <Row lg="2" md="2" sm="1" xs="1">
           <Col className="text-section">

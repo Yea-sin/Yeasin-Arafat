@@ -15,15 +15,18 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav ">
           <Nav className="ms-auto nav-menu">
             <Nav.Link active href="#home">
-              RESUME
+              HOME
             </Nav.Link>
-            <Nav.Link active href="#link">
+            <Nav.Link active href="#experience">
+              Experience
+            </Nav.Link>
+            <Nav.Link active href="#about">
               ABOUT
             </Nav.Link>
-            <Nav.Link active href="#link">
+            <Nav.Link active href="#projects">
               PROJECTS
             </Nav.Link>
-            <Nav.Link active href="#link">
+            <Nav.Link active href="#contact">
               CONTACT
             </Nav.Link>
           </Nav>

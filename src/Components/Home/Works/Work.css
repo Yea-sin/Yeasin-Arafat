@@ -6,3 +6,7 @@
   background: lightgray;
   padding: 110px 0;
 }
+.project-img img:hover {
+  transform: scale(1.5);
+  transition: 2s;
+}

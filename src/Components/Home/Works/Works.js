@@ -7,7 +7,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 const Works = () => {
   return (
-    <Container className="space-container">
+    <Container className="space-container" id="projects">
       <div className="readex-font mb-5">
         <h2>Works_</h2>
         <small>Projects I Made</small>
@@ -30,7 +30,7 @@ const Works = () => {
           <div className="readex-font">
             <p>
               <BsChevronCompactRight /> A responsive, fully-functional, admin
-              secure niche website
+              secure niche website using MERN stack
             </p>
             <p>
               <BsChevronCompactRight /> Allowing customers to create an account,
@@ -116,20 +116,16 @@ const Works = () => {
           </div>
           <div className="readex-font">
             <p>
-              <BsChevronCompactRight /> A responsive, fully-functional, admin
-              secure niche website
+              <BsChevronCompactRight /> Functional Food delivery, fully
+              responsive website using MERN stack.
             </p>
             <p>
-              <BsChevronCompactRight /> Allowing customers to create an account,
-              browse products, order products & write reviews.
+              <BsChevronCompactRight /> Users can order/buy Food online through
+              this website
             </p>
             <p>
-              <BsChevronCompactRight /> Admins have the ability to add new
-              products, remove existing products, remove user products and
-              create new admin accounts.
-            </p>
-            <p>
-              <BsChevronCompactRight /> Reviews are dynamic
+              <BsChevronCompactRight /> Users have the ability to add new
+              products, remove existing products
             </p>
           </div>
           <div className="row text-light gy-2">
@@ -139,9 +135,7 @@ const Works = () => {
             <small className="col-md-3 ms-2 p-1 rounded bg-secondary">
               #Javascript
             </small>
-            <small className="col-md-3 ms-2 p-1 rounded bg-secondary">
-              #MUI
-            </small>
+
             <small className="col-md-3 ms-2 p-1 rounded bg-secondary">
               #Node.js
             </small>

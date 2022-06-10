@@ -36,21 +36,6 @@ const Banner = () => {
               </span>
               <hr />
             </h5>
-            {/* <br />
-            <div className="fw-bolder">
-              <p>
-                <span style={{ color: "olivedrab" }}>Age :</span>{" "}
-                <span className="readex-font">22</span>
-              </p>
-              <p>
-                <span style={{ color: "olivedrab" }}>Phone. :</span>{" "}
-                <span className="readex-font">01795617763</span>
-              </p>
-              <p>
-                <span style={{ color: "olivedrab" }}>Address :</span>{" "}
-                <span className="readex-font">Khulna, Bangladesh</span>
-              </p>
-            </div> */}
 
             <div className="d-flex align-items-center my-4 icons">
               <a
@@ -89,8 +74,7 @@ const Banner = () => {
 
             <div className="d-flex align-items-center buttons">
               <a
-                href="https://drive.google.com/file/d/1S3ClCKSdaPLL6CGO1oc7kZ01TxHvjQBv/view?usp=sharing"
-                rel="noreferrer"
+                href="https://drive.google.com/file/d/1JqBDi_OjX6S-3P5rBhfft9iwNa2ZA8jb/view?usp=sharing"
                 target="_blank">
                 <Button className="py-3 px-5" variant="outline-dark">
                   My Resume
